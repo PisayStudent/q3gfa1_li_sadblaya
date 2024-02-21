@@ -29,12 +29,12 @@
         let text = "Do you agree to share your personal information with the site?";
         if (confirm(text) == true){
             if(converheight2>0)
-                document.write('Name: ' + name + '</br>Height: ' + converheight1 + '\'' + converheight2 + '\"' + '</br>Weight: ' + converweight + ' lbs');
+                console.log('Name: ' + name + '</br>Height: ' + converheight1 + '\'' + converheight2 + '\"' + '</br>Weight: ' + converweight + ' lbs');
             else
-                document.write('Name: ' + name + '</br>Height: ' + converheight1 + '\'' + '</br>Weight: ' + converweight + ' lbs');
+                console.log('Name: ' + name + '</br>Height: ' + converheight1 + '\'' + '</br>Weight: ' + converweight + ' lbs');
         }
         else{
-            document.write("User does not wish to share his/her information.");
+            console.log("User does not wish to share his/her information.");
         }
     </script>
 </body>
