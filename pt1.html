@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = 'Angela';
+        var height = 57;
+        var weight = 36.4;
+
+        var converheight1 = Math.floor(height/12);
+        var converheight2 = height % 12;
+        var converweight = weight * 2.205;
+
+        if(converheight2>0)
+            alert('Name: ' + name + '\nHeight: ' + converheight1 + '\'' + converheight2 + '\"' + '\nWeight: ' + converweight + ' lbs');
+        else
+            alert('Name: ' + name + '\nHeight: ' + converheight1 + '\'' + '\nWeight: ' + converweight + ' lbs');    
+    </script>
+</body>
+</html>
