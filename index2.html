@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><button>Click here for GFA Pt. 1</button></a>
+        <a href="index2.html"><button>Click here for GFA Pt. 2</button></a>
+        <a href="index3.html"><button>Click here for GFA Pt. 3</button></a>
+    </nav>
+    
+    <p id="response"></p>
+
+    <script>
+        var firstname = prompt("First Name: ", firstname);
+        var secname = prompt("Last Name: ", secname);
+        var birthyear = prompt("Birth Year: ", birthyear);        
+        var age = 2024 - birthyear;
+
+        document.getElementById("response").innerHTML = "Hello " + firstname + " " + secname + "! How does it feel to be " + age + " years old?";
+    </script>
+</body>
+</html>
